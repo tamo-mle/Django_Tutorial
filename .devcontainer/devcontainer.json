@@ -2,7 +2,7 @@
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.191.0/containers/python-3-postgres
 // Update the VARIANT arg in docker-compose.yml to pick a Python version: 3, 3.8, 3.7, 3.6 
 {
-	"name": "Python 3 & PostgreSQL",
+	"name": "Django-Tutorial",
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "app",
 	"workspaceFolder": "/workspace",
@@ -11,13 +11,13 @@
 	"settings": { 
 		"sqltools.connections": [{
 			"name": "Container database",
-			"driver": "PostgreSQL",
+			"driver": "sqlite3",
 			"previewLimit": 50,
 			"server": "localhost",
 			"port": 5432,
-			"database": "postgres",
-			"username": "postgres",
-			"password": "postgres"
+			"database": "sqlite3",
+			"username": "sqlite3",
+			"password": "sqlite3"
 		}],
 		"python.pythonPath": "/usr/local/bin/python",
 		"python.languageServer": "Pylance",
