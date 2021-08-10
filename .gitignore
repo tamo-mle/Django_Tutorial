@@ -1,7 +1,12 @@
 
 # フォルダ指定
 __pycache__/
+/static
+/.vscode
 
 # ファイル指定
 .DS_Store
 db.sqlite3
+*.pyc
+*~
+myvenv
