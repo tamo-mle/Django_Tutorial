@@ -1,1 +1,7 @@
+
+# フォルダ指定
+__pycache__/
+
+# ファイル指定
 .DS_Store
+db.sqlite3
